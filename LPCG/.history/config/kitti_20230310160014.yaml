@@ -1,0 +1,12 @@
+type: 'kitti'
+root_dir: '/home/tjc/LPCG'
+
+data_dir: '/home/tjc/LPCG/data/kitti'
+raw_data_dir: '/home/tjc/LPCG/data/kitti/raw_data'
+KITTI3D_data_dir: '/home/tjc/LPCG/data/kitti/KITTI3D/training'
+KITTI_merge_data_dir: '/home/tjc/LPCG/data/kitti/kitti_merge/training'
+
+writelist: ['Car', 'Pedestrian', 'Cyclist'] # 需要保留的目标类别
+label_mode: ['high_acc']
+#optional: label_mode: ['low_cost'] or label_mode: ['high_acc', 'low_cost']
+
